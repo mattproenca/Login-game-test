@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-image: url(https://i.imgur.com/JVwQZYw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 250px
+}
+
+.card {
+    background-color: #ffffff85;
+    padding: 40px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 1px 0px #00000080
+
+}
+ h1    {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 30pt;
+    
+
+ }
+
+ .label-float input {
+     width: 100%;
+     padding: 5px 5px;
+     display: inline-block;
+     border: 0;
+     border: 1px solid #000000;
+     background-color: #ffffff70;
+     min-width: 180px;
+     font-size: 16px;
+     border-radius: none;
+
+ }
+ .label-float {
+     position: relative;
+     padding-top: 5px;
+     margin-top: 5%;
+     margin-bottom: 5%;
+
+ }
+
+ .label-float input:focus {
+     border-bottom: 2px solid;
+
+ }
+
+ button {
+     background-color: transparent;
+     border-color: #000000;
+     color: #000000;
+     padding: 40px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-weight: bold;
+     font-size: 14pt;
+     margin-top: 5px;
+     border-radius: 15px;
+     cursor: pointer;
+     outline: none;
+    transition:all .4s ease-out;
+ }
+
+ button:hover {
+     background-color: #00000060;
+     color: #000000;
+
+
+     
+ }
+ .justify-center {
+     display: flex;
+     justify-content:center;
+
+ }
+ 
+ hr{
+     margin-top: 5%;
+     margin-bottom: 10%;
+     width: 100%;
+     
+    
+ }
+
+ p{
+     color:#000000;
+     font-size: 14pt;
+     text-align: center;
+    
+ }
+
+ a{
+     color:#020000;
+     
+ }
+
+ 
+
+ 
+ 
